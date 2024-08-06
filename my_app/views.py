@@ -6,3 +6,6 @@ def index(request):
 
 def abell(request):
     return render(request, "my_app/abell.html")
+
+def clara(request):
+    return render(request, "my_app/clara.html")
